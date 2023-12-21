@@ -1,3 +1,4 @@
+
 execute_plp=function(connectionDetails=connectionDetails,
                     cdmDatabaseSchema=cdmDatabaseSchema,
                     vocabularyDatabaseSchema = cdmDatabaseSchema,
@@ -8,7 +9,7 @@ execute_plp=function(connectionDetails=connectionDetails,
                     outputFolder=outputFolder,
                     incrementalFolder = file.path(outputFolder, "incrementalFolder"),
                     databaseId =   databaseId,
-                    packageWithCohortDefinitions = "PLPStudyathonOne",
+                    packageWithCohortDefinitions = "PLPstudy",
                     cohortIds = NULL,
                     databaseName = databaseId,
                     databaseDescription = databaseDescription,
@@ -27,7 +28,7 @@ if(GenerateCohorts==TRUE)
                     outputFolder= outputFolder,
                     incrementalFolder = file.path(outputFolder, "incrementalFolder"),
                     databaseId = databaseId,
-                    packageWithCohortDefinitions = "PLPStudyathonOne",
+                    packageWithCohortDefinitions = "PLPstudy",
                     cohortIds = NULL,
                     minCellCount = 5,
                     databaseName = databaseName,
@@ -35,7 +36,6 @@ if(GenerateCohorts==TRUE)
                     extraLog = NULL) 
 
     }
-
 # Create the PLP database details 
 DatabaseDetails=PatientLevelPrediction::createDatabaseDetails (connectionDetails,
                             cdmDatabaseSchema=cdmDatabaseSchema, 
