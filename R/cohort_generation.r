@@ -70,7 +70,7 @@ cohort_generation <- function(connectionDetails,
                     outputFolder= outputFolder,
                     incrementalFolder = file.path(outputFolder, "incrementalFolder"),
                     databaseId = databaseId,
-                    packageWithCohortDefinitions = "PLPstudy",
+                    packageWithCohortDefinitions = "PLPStudyathonOne",
                     cohortIds = NULL,
                     minCellCount = 5,
                     databaseName = databaseName,
@@ -111,7 +111,7 @@ cohort_generation <- function(connectionDetails,
         settingsFileName = "settings/CohortsToCreate.csv",
         jsonFolder = "cohorts",
         sqlFolder = "sql/sql_server",
-        packageName = 'PLPstudy',
+        packageName = 'PLPStudyathonOne',
         cohortFileNameValue = "cohortId"
         ) %>% dplyr::tibble()
 
