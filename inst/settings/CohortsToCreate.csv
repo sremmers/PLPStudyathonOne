@@ -1,24 +1,24 @@
-cohortId,cohortName
-55,Metastatic disease
-58,PSA>20
-59,PSA<10
-60,PSA10_20
-63,Stage T1
-64,Stage T2
-65,Stage T3_T4
-67,Grade 1 (GS2-6)
-68,Grade 2 (GS7 (3+4))
-69,Grade 3 (GS 7 (4+3))
-70,Grade 4 (GS 8)
-71,Grade 5 (GS 9-10)
+cohortId,cohortname
+1088,Metastatic disease
+1087,PSA>20
+1089,PSA<10
+1090,PSA10_20
+1092,Stage T1
+1093,Stage T2
+1094,Stage T3_T4
+1095,Grade 1 (GS2-6)
+1096,Grade 2 (GS7 (3+4))
+1097,Grade 3 (GS 7 (4+3))
+1098,Grade 4 (GS 8)
+1099,Grade 5 (GS 9-10)
 72,Family history of PCa
-111,Age <55
-110,Age 55_80
-109,Age >80
-120,CCI 0
+1101,Age <55
+1102,Age 55_80
+1103,Age >80
+1104,CCI 0
 121,CCI 1
 122,CCI >=2
-153,Stroke (ischemic or hemorrhagic)
+1105,Stroke (ischemic or hemorrhagic)
 154,Type 2 diabetes
 199,Target 3a Conservative management
 196,Outcome Symptomatic progression
