@@ -41,7 +41,7 @@ options(sqlRenderTempEmulationSchema = NULL)
 
 #############################################################################
 #############################################################################
-PLPstudy::execute_plp(
+PLPStudyathonOne::execute_plp(
   connectionDetails = connectionDetails,
   cdmDatabaseSchema = cdmDatabaseSchema,
   cohortDatabaseSchema = cohortDatabaseSchema,
