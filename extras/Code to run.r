@@ -1,4 +1,4 @@
-library(PLPstudy)
+library(PLPStudyathonOne)
 
 # The folder where the study intermediate and result files will be written:
 outputFolder <- "C:/...."
